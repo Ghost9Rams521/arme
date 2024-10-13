@@ -3,11 +3,15 @@ const { Client, GatewayIntentBits } = require('discord.js');
 
 // Créer une nouvelle instance du client
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.DirectMessages, GatewayIntentBits.GuildMessages],
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.DirectMessages,
+    GatewayIntentBits.GuildMessages
+  ],
 });
 
 // Le token du bot (remplace par ton propre token)
-const TOKEN = 'MTI5NDk4MjYwMzE0OTE1MjI2Nw.GMNkHq.kxqTKSfZE3l4VlaqlI6az_kkYE3c66BlxoSXYI';  // Remplace par le token de ton bot
+const TOKEN = 'VOTRE_TOKEN_ICI'; // Remplace par le token de ton bot
 
 // Événement : lorsque le bot est prêt
 client.once('ready', () => {

@@ -6,7 +6,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
-	"autre-package": "1.0.0" // Ceci pourrait causer une erreur si la syntaxe n'est pas correcte
+    "express": "^4.17.1",
+    "discord.js": "^14.0.0" // Ajoutez ici le package Discord.js si vous l'utilisez
+  },
+  "engines": {
+    "node": "18.x" // Spécifiez la version de Node.js que vous souhaitez utiliser
   }
 }
