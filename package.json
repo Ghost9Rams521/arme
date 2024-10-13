@@ -7,5 +7,6 @@
   },
   "dependencies": {
     "express": "^4.17.1"
+	"autre-package": "1.0.0" // Ceci pourrait causer une erreur si la syntaxe n'est pas correcte
   }
 }
