@@ -11,7 +11,7 @@ const client = new Client({
 });
 
 // Le token du bot (remplace par ton propre token)
-const TOKEN = 'VOTRE_TOKEN_IÇI'; // Remplace par le token de ton bot
+const TOKEN = 'https://discord.com/oauth2/authorize?client_id=1294982603149152267&permissions=67584&integration_type=0&scope=bot'; // Remplace par le token de ton bot
 
 // Événement : lorsque le bot est prêt
 client.once('ready', () => {
